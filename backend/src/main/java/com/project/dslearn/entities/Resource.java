@@ -12,7 +12,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-
 import com.project.dslearn.enums.ResourceType;
 
 @Entity
@@ -28,16 +27,15 @@ public class Resource implements Serializable {
 	private Integer position;
 	private String imgUri;
 	private ResourceType type;
-
+	
 	@ManyToOne
 	@JoinColumn(name = "offer_id")
 	private Offer offer;
 
 	@OneToMany(mappedBy = "resource")
 	private List<Section> sections = new ArrayList<>();
-
+	
 	public Resource() {
-
 	}
 
 	public Resource(Long id, String title, String description, Integer position, String imgUri, ResourceType type,
@@ -106,10 +104,6 @@ public class Resource implements Serializable {
 
 	public void setOffer(Offer offer) {
 		this.offer = offer;
-	}
-
-	public List<Section> getSections() {
-		return sections;
 	}
 
 	@Override

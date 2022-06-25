@@ -15,12 +15,11 @@ public class Task extends Lesson {
 	private Integer questionCount;
 	private Integer approvalCount;
 	private Double weight;
-
-	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
+	
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")	
 	private Instant dueDate;
-
+	
 	public Task() {
-
 	}
 
 	public Task(Long id, String title, Integer position, Section section, String description, Integer questionCount,
