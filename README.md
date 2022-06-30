@@ -15,7 +15,7 @@ The application consists of an online course platform, where the student can see
 https://www.figma.com/file/p8Hawp1w5g0pCZ3h3ZsCUd/DSLearn-Bootcamp?node-id=0%3A1
 
 ## Class diagram
-![Modelo Conceitual](https://drive.google.com/drive/folders/1pzUZsfRLZVatkWDgJXz4Bl4G74MqPaUq)
+![Modelo Conceitual](https://github.com/brazil-bruno/dslearn/blob/main/img/modelo-conceitual-com-forum.png)
 
 ## Layer pattern
 ![Layer pattern](https://raw.githubusercontent.com/devsuperior/sds2/master/assets/camadas.png)
