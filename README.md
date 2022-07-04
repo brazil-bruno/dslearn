@@ -1,10 +1,6 @@
 # DSLearn
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/brazil-bruno/dslearn/blob/main/LICENSE)
 
-# Collection Postman DsLearn link
-
-https://www.getpostman.com/collections/b156d5adf224f89f6ca3
-
 # About the project
 
 DSLearn is a Java web application built during the 2ª edition of the **DevSuperior Bootcamp Full Stack Java, ReactJS and React Native**, an event organized by [DevSuperior](https://devsuperior.com.br/cursos "DevSuperior Website").
